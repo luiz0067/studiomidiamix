@@ -1,0 +1,84 @@
+#fwa {
+	font-size: 12px;
+	line-height: 1.5em;
+}
+
+#fwa .fwa-bar {
+	float: left;
+	margin: 0 30px 0 0;
+	width: 300px;
+}
+#fwa #fwa-3 {
+	margin: 0;
+}
+#fwa .widget-title {
+	font: bold 22px/28px 'Open Sans Condensed', sans-serif;
+	margin: 0 0 0.75em 0;
+	color: #222;
+	text-transform: uppercase;
+}
+#fwa .widget ul {
+	margin: 0 0 -1em 0;
+	padding: 0;
+	list-style-type: none;
+}
+#fwa .widget ul li {
+	margin: 0 0 1em 0;
+	padding: 0;
+}
+#fwa .widget ul ul {
+	margin: 1em 0 0 0;
+	padding: 0 0 0 3em;
+}
+#fwa .widget a {
+	color: #172a5b;
+	text-decoration: none;
+}
+#fwa .widget a:hover {
+	text-decoration: underline;
+}
+
+/** Tweets **/
+#fwa .widget_tweets ul li .padd-twitter-timestamp {
+	display: block;
+	color: #575a61;
+}
+
+/** Recent Posts **/
+#fwa .widget .recent-posts li .thumbnail {
+	display: block;
+	float: left;
+}
+#fwa .widget .recent-posts li h4 {
+	font-size: 13px;
+	line-height: 1.5em;
+	display: block;
+	margin: 0 0 0 70px;
+	font-weight: normal;
+}
+#fwa .widget .recent-posts li h4 a {
+	text-decoration: none;
+}
+#fwa .widget .recent-posts li h4 a:hover {
+	text-decoration: underline;
+}
+#fwa .widget .recent-posts li p {
+	font-size: 10px;
+	line-height: 14px;
+	display: block;
+	margin: 0 0 0 70px;
+}
+
+/** Recent Comments **/
+#fwa .widget_recent_comments  ul li {
+	min-height: 70px;
+}
+#fwa .widget_recent_comments  ul li img {
+	float: left;
+}
+#fwa .widget_recent_comments  ul li .comm {
+	margin: 0 0 0 80px;
+}
+#fwa .widget_recent_comments  ul li .comm p {
+	margin: 0 0 0.25em 0;
+}

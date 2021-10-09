@@ -1,0 +1,43 @@
+/* = header.css
+--------------------------------------------------- */
+
+#header #branding {
+	float: left;
+	height: 103px;
+	overflow: hidden;
+}
+
+#header .widget_socialnet {
+	margin-top: 42px;
+	float: right;
+}
+#header .widget_socialnet ul {
+	display: block;
+	margin: 0;
+	padding: 0;
+	height: 25px;
+}
+#header .widget_socialnet ul li {
+	display: block;
+	margin: 0 0 0 10px;
+	padding: 0;
+	float: left;
+}
+#header .widget_socialnet ul li a {
+	display: block;
+	margin: 0;
+	padding: 0;
+	text-indent: -999999px;
+	width: 25px;
+	height: 25px;
+	background: transparent url('') 0 0 no-repeat;
+}
+#header .widget_socialnet ul li.facebook a {
+	background-image: url('images/icon-sn-facebook.png');
+}
+#header .widget_socialnet ul li.twitter a {
+	background-image: url('images/icon-sn-twitter.png');
+}
+#header .widget_socialnet ul li.rss a {
+	background-image: url('images/icon-sn-rss.png');
+}

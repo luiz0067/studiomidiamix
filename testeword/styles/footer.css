@@ -1,0 +1,19 @@
+/* = footer.css
+--------------------------------------------------- */
+
+#copyright p {
+	display: block;
+	font-size: 12px;
+	line-height: 40px;
+	margin: 0;
+	padding: 0;
+	color: #a5a5a5;
+	text-shadow: 0 1px 0 #333;
+}
+#copyright a {
+	color: #a5a5a5;
+	text-decoration: none;
+}
+#copyright #credits {
+	float: left;
+}
