@@ -1,8 +1,8 @@
 	<?php
-	$host		=	"mysql.studiomidiamix.com.br";
-	$login		=	"studiomidiamix";
-	$password	=	"profeta";
-	$base_dados	=	"studiomidiamix";
+	$host		=	"host";
+	$login		=	"login";
+	$password	=	"password";
+	$base_dados	=	"base_dados";
 
 if (!$link = mysql_connect($host, $login, $password)) {
     echo 'Não foi possível conectar ao mysql';
