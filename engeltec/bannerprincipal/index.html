@@ -1,0 +1,55 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+
+        <script type="text/javascript" src="./js/jquery.cycle.all.2.72.js"></script> 
+
+        <script type="text/javascript" src="./js/jquery-ui-1.8.6.custom.min.js"></script>
+
+        <script type="text/javascript" src="./js/script.js"></script>
+
+        <script src="Scripts/swfobject_modified.js" type="text/javascript"></script>
+ 
+<link href="css/geral.css" rel="stylesheet" />
+
+</head>
+
+<body>
+<div id="wrapper">
+         <div>
+             <div class="sliderbutton"><img src="./imagens/botoes_slide/botao_esquerdo_over.png" alt="Previous" onclick="slideshow.move(-1)" height="32" width="46" onmouseover="this.src='./imagens/botoes_slide/botao_esquerdo.png';" onmouseout="this.src='./imagens/botoes_slide/botao_esquerdo_over.png';">
+               <ul id="pagination" class="pagination">
+                     
+                     <li class="" onclick="slideshow.pos(0)" ><img src="./imagens/botoes_slide/1_over.png"  onmouseout="this.src='./imagens/botoes_slide/1.png';"  onmouseover="this.src='./imagens/botoes_slide/1_over.png';" ></li>
+                     <li class="" onclick="slideshow.pos(1)" ><img src="./imagens/botoes_slide/2_over.png"  onmouseout="this.src='./imagens/botoes_slide/2.png';"  onmouseover="this.src='./imagens/botoes_slide/2_over.png';" ></li>
+                     <li class="current" onclick="slideshow.pos(2)" ><img src="./imagens/botoes_slide/3_over.png"  onmouseout="this.src='./imagens/botoes_slide/3.png';"  onmouseover="this.src='./imagens/botoes_slide/3_over.png';" ></li>
+                 <li class="" onclick="slideshow.pos(3)" ><img src="./imagens/botoes_slide/4_over.png"  onmouseout="this.src='./imagens/botoes_slide/4.png';"  onmouseover="this.src='./imagens/botoes_slide/4_over.png';" ></li>
+                
+                 </ul>
+             </div>     
+                <div style="overflow: hidden;" id="slider">
+                    <ul>
+                        <a href="www.google.com" rel="lightbox"> <li><img src="./imagens/imagens_slide/CASAMENTOS.png" alt="CASAMENTOS" height="275" width="331"></li></a>
+                        <li><img src="./imagens/imagens_slide/festas.png" alt="festas" height="275" width="331"></li>
+                        <li><img src="./imagens/imagens_slide/formaturas.png" alt="formaturas" height="275" width="331"></li>
+                        <li><img src="./imagens/imagens_slide/foto.png" alt="foto" height="275" width="331"></li>
+                    </ul>
+                </div>
+             <div class="sliderbutton"><img src="./imagens/botoes_slide/botao_direito_over.png" alt="Next" onclick="slideshow.move(1)" height="32" width="46" onmouseover="this.src='./imagens/botoes_slide/botao_direito.png';" onmouseout="this.src='./imagens/botoes_slide/botao_direito_over.png';"></div>
+         </div>
+     </div>
+        <script type="text/javascript">
+         var slideshow=new TINY.slider.slide('slideshow',{
+                 id:'slider',
+                 auto:3,
+                 resume:true,
+                 vertical:false,
+                 navid:'pagination',
+                 activeclass:'current',
+                 position:0
+         });
+     </script>
+</body>
+</html>

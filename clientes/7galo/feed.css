@@ -1,0 +1,49 @@
+body{
+		margin:0px;
+		padding:0;
+		font:11px "trebuchet MS", Verdana;
+	}
+	
+#wrap{
+		margin:0 auto;
+		width:770px; 
+	}
+
+#rss{
+	background-color:#EAF1F9;
+	width:450px;
+	float:left;
+	border:0px solid red;
+	margin-left:10px;
+	padding:10px;	
+}
+
+#rss P{
+	background-image:url(../images/bg_item.jpg);
+	background-repeat:repeat-x;
+	font:11px "trebuchet MS", Verdana;	
+	color:#333;	
+	margin:0px;
+	padding:0px;
+}
+
+#rss UL{
+	margin:3px;
+	text-align:left;
+	padding-left:2px;
+}
+
+
+#rss a{
+	font:bold 12px "trebuchet MS", Verdana;	
+	color:#333;
+	text-decoration:none;
+	padding:0px;
+}
+
+
+#rss a:hover{
+		text-decoration:none;
+		background-color:#cf0;
+		color:#333;
+}

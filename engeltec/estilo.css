@@ -1,0 +1,371 @@
+@charset "UTF-8";
+/* Engeltec Equipamentos LTDA
+
+Developed by Studio Midiamix 
+
+www.studiomidiamix.com.br
+
+//studiomidiamix
+
+ */
+ 
+ /*   ---------------Estruturação básica------------------------   */
+ 
+ 
+body, #tudo {
+	width:100%; height:100%; position:absolute; margin-left:0px; margin-right:0px; margin-bottom:0px; margin-top:0px; background-image:url(imagens/fundobody.jpg); background-repeat:repeat;}
+	
+h1{
+	font-size:18px; font-family:Arial, Helvetica, sans-serif; color:#004798; margin-top:0px; font-style:normal; font-weight:normal; text-indent:0px;}	
+	
+	h2{
+		font-size:16px; font-family:Arial, Helvetica, sans-serif; color:#616161; font-weight:normal; text-indent:hanging;}
+		
+	h3{
+		color:#004797; font-size:16px; font-style:normal; font-weight:normal; font-family:Arial, Helvetica, sans-serif;}
+		
+	h4{
+		color:#004797; font-size:14px; font-style:normal; font-weight:normal; font-family:Arial, Helvetica, sans-serif;}		
+	
+	
+	
+#conteudo{
+	width:1000px; height:auto; min-height:800px; display:block; overflow:hidden; float:none; margin-left:auto; margin-right:auto; background-color:transparent;}
+	
+	
+.divisormenuconteudo{
+	width:1000px; height:43px; float:left;}	
+	
+#{
+	display:block; overflow:hidden;}	
+
+article#principal{
+	width:1000px; height:auto; min-height:482px; float:left;}	
+
+	
+.article{
+	width:1000px; height:auto; min-height:482px; float:left;}
+	
+
+
+/*       --------------header-------------      */
+
+
+
+#totalheader{
+	width:100%; height:276px; margin-top:0px; display:block; overflow:hidden; background-image:url(imagens/fundoheader.jpg); background-repeat:repeat-x;}
+
+header#header{
+	width:1000px; height:276px; float:none; margin-left:auto; margin-right:auto; display:block; overflow:hidden;}
+	
+#gelo{
+	width:265px; height:276px; float:left; display:block; overflow:hidden;}	
+	
+#engeltec{
+	width:734px; height:151px; float:left;}	
+	
+#redes_topo{
+	width:183px; height:56px; float:left; padding-left:551px;}	
+/*menus */
+	
+nav#navtopo{
+	width:734px; height:69px; float:left; display:block; overflow:hidden;}	
+	
+ul#menu{
+	width:734px; height:69px; float:left; text-decoration:none; list-style:none; text-align:left;}	
+	
+li.menus{
+	width:145px; height:49px; float:left; display:block; overflow:hidden;  text-align:center; text-decoration:none;
+	margin-left:0px; padding-left:0px; }
+	li.menus:hover{
+	width:145px; height:49px; float:left; display:block; overflow:hidden;  text-align:center;text-decoration:none; 
+	background-image:url(imagens/fundonav.png); background-repeat:no-repeat;}
+	
+	li.menus:active{
+	width:145px; height:49px; float:left; display:block; overflow:hidden;  text-align:center; text-decoration:none; 
+	background-image:url(imagens/fundonav.png); background-repeat:no-repeat;}
+	
+		
+	/* menus */
+	a#menu1, #menu2, #menu5{
+		font-family:Arial, Helvetica, sans-serif; font-size:18px; color:#FFF; text-decoration:none; line-height:49px;}
+		
+	a#menu1, #menu2, #menu5:hover{
+		font-family:Arial, Helvetica, sans-serif; font-size:18px; color:#FFF; text-decoration:none;}
+		
+	a#menu1, #menu2, #menu5:active{
+		font-family:Arial, Helvetica, sans-serif; font-size:18px; color:#FFF; text-decoration:none;}	
+		
+	a#menu1, #menu2, #menu5:visited{
+		font-family:Arial, Helvetica, sans-serif; font-size:18px; color:#FFF; text-decoration:none;}	
+		
+		
+	a#menu3, #menu4{
+		font-family:Arial, Helvetica, sans-serif; font-size:18px; color:#FFF; text-decoration:none;}
+		
+	a#menu3, #menu4:hover{
+		font-family:Arial, Helvetica, sans-serif; font-size:18px; color:#FFF; text-decoration:none;}
+		
+	a#menu3, #menu4:active{
+		font-family:Arial, Helvetica, sans-serif; font-size:18px; color:#FFF; text-decoration:none;}	
+		
+	a#menu3, #menu4:visited{
+		font-family:Arial, Helvetica, sans-serif; font-size:18px; color:#FFF; text-decoration:none;}	
+	/* menus */			
+			
+	
+
+
+
+/*                -----------footer------------         */
+
+#footer-total{
+	width:100%; height:196px;}	
+	
+#gelototal{
+	width:100%; height:113px; background-image:url(imagens/gelofull.png); background-repeat:repeat-x;}	
+
+#gelomeio{
+	width:1000px; height:113px; background-image:url(imagens/gelo-footer.png); background-repeat:no-repeat; float:none; margin-left:auto; margin-right:auto;}
+	
+#barracinza{
+	height:85px; width:100%; background-image:url(imagens/fundobarracinza.jpg); background-repeat:repeat-x;}	
+
+footer#footer{
+	width:1000px; height:85px; float:none; margin-left:auto; margin-right:auto;}	
+	
+#info_rodape{
+	width:276px; height:71px; float:left;font-size:12px;color:rgb(97,97,97);text-align:left; padding-top:14px; padding-left:4px; font-family:Arial, Helvetica, sans-serif; font-style:normal; /* descontados paddings */
+}	
+
+#redes_rodape{
+	width:183px; height:56px; float:left; margin-left:130px; margin-top:20px; display:inline;}	
+	
+#flashmix{width:107px; height:85px; float:right; margin-left:300px; display:inline; background-image:url(imagens/midiamix.png); background-repeat:no-repeat;
+	}	
+
+		
+
+
+
+/*              ---------home-------------            */
+
+article#home{
+	width:1000px; height:auto; min-height:450px; float:left;}
+	
+	article#home1{
+		width:351px; height:auto; min-height:450px; float:left;}
+		
+	article#home2{
+		width:341px; height:auto; min-height:450px; float:left;}	
+		
+	article#home3{
+		width:307px; height:auto; min-height:450px; float:left;}	
+		
+.titulocategoria{
+	width:100%; height:22px; float:left; padding-left:4px; font-size:18px; font-family:Arial, Helvetica, sans-serif; color:#004798;}							
+	
+.textopadrao{
+	width:100%; height:auto; display:block; overflow:hidden; font-family:Arial, Helvetica, sans-serif; font-size:14px; line-height:150%; text-align:justify; color:#616161; margin-bottom:27px;  padding-right:10px; padding-top:10px;}	
+	
+.foto{
+	width:72px; height:69px; border-style:solid; border-width:3px; border-color:#CCCCCC; float:left; margin-right:3px; 
+	 /* For IE8 and earlier */} /* 78 x 75 */
+	 
+.foto:hover{
+	width:72px; height:69px; border-style:solid; border-width:3px; border-color:#00CCFF; float:left; margin-right:3px; 
+	 /* For IE8 and earlier */} /* 78 x 75 */	 
+
+	
+.linhafoto1{
+	width:312px; height:75px; display:block; overflow:hidden; margin-top:20px;}
+	
+#videohome{
+	height:208px; width:286px; float:left; background-image:url(imagens/fundovideo.png); background-repeat:no-repeat; display:block; overflow:hidden; padding-top:34px; padding-bottom:34px; padding-left:28px; padding-right:27px;}		
+	
+div.produtodestaque{
+	width:297px; height:299px; float:left; display:block; overflow:hidden; background-image:url(imagens/fundodestaque.png); background-repeat:no-repeat;}	
+	
+img.produtodestaque{
+	width:262px; height:299px; float:left; display:block; overflow:hidden;}	
+	
+/* slide principal */
+
+div#slide{
+	width:1000px; height:325px; float:left; display:block; overflow:hidden; margin-top:20px;}
+	
+	#paginacao{ 
+	width: 1000px;
+
+	min-height: 325px;
+
+ }
+
+
+#slider #capa{
+	width:1000px;
+	height:325px;
+	position:relative;
+	z-index:2;
+}
+
+#slider #slides{
+	width:1000px;
+	height:325px;
+	position: absolute;
+	z-index:3;
+}
+
+#paginador a{
+	width:17px;
+	height:17px;
+	display:block;
+	float:;
+	background: url(../imagens/paginadorOff.png) no-repeat center;
+	text-indent:-999999px;
+	display:inline-block;
+}
+
+#paginador a.activeSlide{
+	background: url(../imagens/paginadorOn.png) no-repeat center;
+}
+
+
+	
+	
+	
+/*                         -----------------empresa---------------------           */			
+
+article#empresa{
+	width:1000px; height:auto; min-height:600px; float:left;}
+	
+	article#empresa1{
+	width:322px; height:auto; min-height:600px; float:left; padding-left:10px; padding-right:10px;}
+	
+	article#empresa2{
+	width:350px; height:auto; min-height:600px; float:left;padding-left:10px; padding-right:10px;}
+	
+	article#empresa3{
+	width:267px; height:auto; min-height:600px; float:left;padding-left:10px; padding-right:10px;}
+	
+	#selo{
+		margin-top:30px; margin-right:81px; width:239px; height:205px; float:left;}
+		
+/* maquinas de gelo */		
+article#maqgelo{
+	width:1000px; height:auto; min-height:600px; float:left;}	
+	
+.titulocategoriamaquinas{
+	width:100%; height:22px; float:left; padding-left:4px; font-size:16px; font-family:Arial, Helvetica, sans-serif; color:#616161; margin-top:10px;}
+	
+.fotomaquinas{
+	width:122px; height:89px; border-style:solid; border-width:3px; border-color:#CCCCCC; float:left; margin-right:10px; 
+	 /* For IE8 and earlier */} /* 128 x 95 */
+	 
+.fotomaquinas:hover{
+	width:122px; height:89px; border-style:solid; border-width:3px; border-color:#00CCFF; float:left; margin-right:10px; 
+	 /* For IE8 and earlier */} /* 128 x 95 */	 
+	 
+
+	
+.linhafotomaquinas{
+	width:auto; height:95px; display:block; overflow:hidden; margin-top:20px;}								
+		
+
+
+
+
+
+
+
+/*         -----------------pagina final produto------------        */
+
+article#produtofinal{
+	width:1000px; height:auto; min-height:600px; float:left;}
+
+div.nomedoproduto{
+	width:1000px; height:94px; float:left; display:block; overflow:hidden; font-style:normal; font-family:Arial, Helvetica, sans-serif; font-size:35px; text-align:center; line-height:94px; text-transform:uppercase;}
+		
+article#produtofinal1{
+	width:1000px; margin-top:30px; height:auto; min-height:340px; display:block; overflow:hidden;}
+	
+article#produtofinal2{ width:1000px; float:left; height:170px; display:block; overflow:hidden;}
+		
+div.voltar{
+	width:100%; height:22px; float:left; display:block; overflow:hidden; text-align:left;}
+	
+	.linkvoltar{
+		font-family:Arial, Helvetica, sans-serif; color:#616161; font-size:16px; text-decoration:none;}
+		
+	.linkvoltar:hover{
+		font-family:Arial, Helvetica, sans-serif; color:#616161; font-size:16px; text-decoration:underline;}	
+	
+	.linkvoltar:active{
+		font-family:Arial, Helvetica, sans-serif; color:#616161; font-size:16px; text-decoration:none;}	
+	
+	.linkvoltar:visited{
+		font-family:Arial, Helvetica, sans-serif; color:#616161; font-size:16px; text-decoration:none;}	
+		
+	.quadroazul{
+		width:496px; height:320px;float:left; display:block; overflow:hidden;padding:10px; background-color:#CFE3F1;}
+		
+	.quadroazul_info{
+		width:311px; height:340px;float:left; display:block; overflow:hidden;background-color:#CFE3F1; margin-left:24px;}	
+		
+	.tituloquadroazul{
+		width:311px; float:left; height:33px; background-color:#A6C1D3; text-align:center; line-height:33px; display:block; overflow:hidden;}	
+		
+		.texto_info{
+			width:291px; height:287px; float:lef; display:block; overflow:hidden; padding:10px; text-align:left;}	
+			
+		/* divisor foto principal com outras fotos */	
+		
+		.divisorfotos{
+			width:100%; height:30px; float:left; display:block;}
+						
+
+
+/*            -------------------outras maquinas-----------------            */	
+
+
+article#outrasmaquinas{
+	width:1000px; height:auto; min-height:600px; float:left;}	
+	
+/* contato */		
+
+article#contato{
+	width:1000px; height:auto; min-height:600px; float:left;}
+	
+	article#contato1{
+	width:578px; height:auto; min-height:600px; float:left;}
+	
+	article#contato2{
+	width:421px; height:auto; min-height:600px; float:left;}	
+
+	
+	#areacontato{width:523px; height:248px; float:left; display:block; overflow:hidden; margin-right:35px; background-color:#9BC2D5; margin-top:60px;}
+	
+	#areainput{
+		width:514px; height:218px; float:left; display:block; overflow:hidden; margin-top:20px; margin-left:13px; font-family:Arial, Helvetica, sans-serif; color:#616161; font-size:16px;}
+		
+		#esquerdainput{
+			width:230px; height:218px; float:left; display:block; overflow:hidden; text-align:right;}
+			
+		#direitainput{
+			width:250px; height:218px; float:left; display:block; overflow:hidden; text-align:right;}	
+		
+		.inputs{
+			display:inline;}
+			
+		#btenviar{
+			background-color:#616161; margin-top:10px; color:#FFFFFF;
+			}
+			
+		#btlimpar{
+			background-color:#616161; margin-top:10px; color:#FFFFFF;
+			}		
+		
+		
+	
+	#mapa{
+		width:355px; height:234px; border-color:#9CC3D6; border-style:solid; border-width:10px; float:right;}
