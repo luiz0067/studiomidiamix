@@ -1,0 +1,6 @@
+CREATE TABLE `galeria` (
+  `idgaleria` int(11) NOT NULL auto_increment,
+  `imagem` varchar(255) default NULL,
+  `legenda` varchar(255) default NULL,
+  PRIMARY KEY  (`idgaleria`)
+)
