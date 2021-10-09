@@ -1,5 +1,4 @@
-
-	<?php
+<?php
 	$host		=	"";
 	$login		=	"";
 	$password	=	"";
