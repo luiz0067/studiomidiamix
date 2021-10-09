@@ -1,0 +1,319 @@
+/*                   *\
+	  CORES LAYOUT
+\*                   */
+.background{
+	background: #00A5E1;
+}
+.background1{
+	background: #00A5E1;
+}
+
+
+.cor{
+	color: #FF0000;
+}
+
+.bgHover:hover{
+	background: #eaeaea;
+	cursor:pointer;
+}
+
+.bgPag:hover{
+	background: #1E90FF;
+	cursor:pointer;
+}
+.bgPag1:hover{
+	background: #666666;
+	
+	cursor:pointer;
+	
+}
+
+input[type=submit]:hover, input[type=button]:hover{
+	
+}
+
+
+div.pagination span.current{
+	background: #b6e400;
+	color:#fff;
+	padding:4px 7px 5px;
+	display:inline-block;
+	text-align:center;
+	float:none;
+	margin:0 3px;
+}
+
+div.pagination a:hover{
+	background: #b6e400;
+	color:#fff;
+}
+
+li.selected{
+	background: #b6e400;
+}
+
+.BGcorBranco:hover{
+	background: #b6e400;
+	color:#fff;
+	cursor:pointer;
+}
+/********************************************************************************************************************/
+#conteudo_baixo{
+	float:left;
+
+	width:525
+
+}
+#linha_de_imegens{
+	float:left;
+
+}
+#linha_de_imagens_2{
+	
+}
+/*******************************************************************************************************************/
+a[rel=color] img, a[rel=color]{
+	float:left;
+	overflow:hidden;
+}
+
+a[rel=color]{
+	border:3px solid #ccc;
+}
+
+a[rel=color]:hover{
+	border:3px solid #9EC600;
+	
+}
+
+a[rel=color] img{
+	margin:-3px !important;
+	padding:0 !important;
+}
+
+a.nao img, a.nao{
+	margin:0 !important;
+	float:none;
+	border:none !important;
+}
+
+a.nao:hover{
+	border:none !important;
+}
+
+
+.botoesIndex a.vermelho{
+	display:block;
+	text-align:left;
+	width:274px;
+	background:url(../img/btnIndex/vermelho.png) top center no-repeat;
+	
+}
+
+.botoesIndex a.vermelho:hover{
+	background:url(../img/btnIndex/vermelho.png) bottom center no-repeat;
+}
+
+.botoesIndex a.azul{
+	display:block;
+	text-align:right;
+	width:274px;
+	background:url(../img/btnIndex/azul.png) top center no-repeat;
+	
+}
+
+.botoesIndex a.azul:hover{
+	background:url(../img/btnIndex/azul.png) bottom center no-repeat;
+}
+
+.botoesIndex a.laranja{
+	display:block;
+	text-align:left;
+	width:274px;
+	background:url(../img/btnIndex/laranja.png) top center no-repeat;
+	
+}
+
+.botoesIndex a.laranja:hover{
+	background:url(../img/btnIndex/laranja.png) bottom center no-repeat;
+}
+
+.botoesIndex a.verde{
+	display:block;
+	text-align:right;
+	width:274px;
+	background:url(../img/btnIndex/verde.png) top center no-repeat;
+	
+}
+
+.botoesIndex a.verde:hover{
+	background:url(../img/btnIndex/verde.png) bottom center no-repeat;
+}
+
+
+.botoesIndex .botaoCor span{
+	font-size:18px;
+	color:#fff;
+	font-weight:bold;
+}
+
+.botoesIndex .botaoCor{
+	text-decoration:none;
+	color:#fff;
+	padding:12px 10px 13px;
+}
+
+
+
+
+/**********************************************************************************************************************************************************************/
+
+#paginador{
+	position:relative;
+	z-index:99999;
+	float:right;
+	margin-top:25px;
+}
+
+#paginador a{
+	width:17px;
+	height:17px;
+	display:block;
+	background: url(../img/paginateDeactive.png) no-repeat center;
+	text-indent:-999999px;
+	display:inline-block;
+}
+
+#paginador a.activeSlide{
+	background: url(../img/paginateActive.png) no-repeat center;
+}
+/**********************************************************************************************************************************************************************/
+.calendario{
+	float:left;
+	margin:1px 7px;
+	background:#efefef;
+	border:1px solid #a5a5a5;
+	height:200px;
+	width:226px;
+}
+
+
+
+.legendas ul li div{
+	width:16px;
+	height:16px;
+	margin-right:5px;
+	float:left;
+}
+.legendas{
+	margin-bottom:20px;
+}
+
+
+.legendas ul{
+	width:33%;
+	float:left;
+}
+
+/**********************************************************************************************************************************************************************/
+
+.barraCursoPt1{
+	padding:15px; 
+	float:left;
+	width:500px; 
+	height:50px;
+	color:#fff;
+	font-size:20px;
+}
+
+.barraCursoPt1 span{
+	font-size:28px;
+}
+.barracurso{
+	width:760px; 
+	height:50px;
+	margin-left:-15px;
+	
+}
+.barraCursoPt2{
+	width:180px; 
+	height:80px;
+	
+	float:left;
+	color:#fff;
+	font-size:12px;
+	text-align:center;
+}
+
+.barraCursoPt2 span{
+	font-size:24px;
+}
+
+.conteudoCurso{
+	width:510px;
+	float:left;
+	margin-top:18px;
+	min-height:350px;
+}
+
+.areaMenu{
+	width:180px;
+	float:right;
+	position:relative;
+	margin-top:22px;
+}
+
+div.menuCurso{
+	background:#fff;
+	position:absolute;
+	top:0;
+}
+
+ul.menuCurso{
+	border: 1px solid #ccc;
+	padding:9px;
+	margin-bottom:6px;
+	display:none;
+}
+
+ul.menuCurso li{
+	border-bottom:1px dashed #ccc;
+}
+
+ul.menuCurso li:hover{
+	background:#eaeaea;
+	font-weight:bold;
+}
+
+ul.menuCurso li a{
+	display:block;
+	padding:7px 0;
+}
+
+ul.menuCurso li a:hover{
+	color:#666;
+}
+
+div.menuCurso .tituloCurso{
+	padding:6px 10px;
+	width:160px;
+	font-weight:bold;
+	color:#fff;
+	font-size:14px;
+	margin-top:3px;
+	cursor:pointer;
+}
+.conteudoCurso{
+	width:510px;
+	float:left;
+	margin-top:18px;
+	min-height:350px;
+}
+/**********************************************************************************************************************************************************************/
+#menu_horario{
+
+}
+
+
+/**********************************************************************************************************************************************************************/
