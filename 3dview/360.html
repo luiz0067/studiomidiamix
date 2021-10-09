@@ -1,0 +1,79 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+	
+	<link href="estilo.css" rel="stylesheet" type="text/css" />
+		<title> Flash - MidiaMix </title>	
+		
+	</head>
+<body>
+
+	<div class="topo"> 	
+	<Strong> Use os Links para visualização 360º </strong>
+	</div>
+	
+		<div id="banner_popup" style=" display: none;">
+	
+				<!-- Botão Fechar Popup -->
+			<h1 align="right"><strong><a href="javascript: void(0);" onclick="fecha_banner();" class="linkFechar">
+			<img src="http://www.redeararaquara.com.br/catalogo/waImagens/icone-fechar2.png" border="0"> </a></strong>
+			<br>
+				<!-- ######### -->
+				
+				<!-- Chamando animação do .SWF -->
+			<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" 
+					codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=5,0,0,0" 
+					width="720" height="540">
+
+			<param name="movie" id="movie" value="flash_360.swf">
+
+			<embed id="movie" name="movie" src="flash_360.swf" pluginspage="http://www.macromedia.com/shockwave/download/index.cgi?P1_Prod_Version=ShockwaveFlash"
+			 type="application/x-shockwave-flash" width="720" height="540"></embed> </object>
+				<!-- ########-->
+				
+		</div>
+			
+			
+
+	<div id="clear"></div>
+	<a href="#" onclick="abre_banner()"> ROTACIONAR 360º </a>  <hr>
+	
+	<div class="rodape">
+	Studio Midiamix
+	</div>
+	
+	
+<!-- JavaScript \/ -->	
+<script language="JavaScript">
+			//if(document.getElementById('banner_popup')) -- Iniciar sozinho
+			//abre_banner(); 							  -- Iniciar sozinho
+
+function fecha_banner()
+{
+	var banner_obj = document.getElementById('banner_popup');
+	banner_obj.style.display = 'none';
+}
+
+function fecha_banner_timeout()
+{
+	setTimeout('fecha_banner()', 30000); // 1000 = 1 segundo
+}
+
+function abre_banner()
+{
+	var banner_obj = document.getElementById('banner_popup');
+
+	banner_obj.style.left = '200px';
+	banner_obj.style.top = '100px';
+
+	banner_obj.style.display = '';
+
+	fecha_banner_timeout();
+}
+			
+</script>
+<!-- ######### -->
+
+</body>
+</html>

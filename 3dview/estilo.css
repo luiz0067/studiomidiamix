@@ -1,0 +1,25 @@
+.linkFechar:link{
+text-decoration: none;
+font-size: 14px;
+color: #000000;
+}
+
+.topo {
+text-align:center;
+}
+
+#movie{
+position:absolute;
+left:150px;
+}
+
+.rodape {
+float:center;
+text-align:center;
+}
+
+#clear{
+height:30px;
+clear:both;
+width:100%;
+}
