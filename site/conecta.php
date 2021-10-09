@@ -1,15 +1,15 @@
-<?php
+	<?php
 	$host		=	"";
 	$login		=	"";
 	$password	=	"";
 	$base_dados	=	"";
 
 if (!$link = mysql_connect($host, $login, $password)) {
-    echo 'NÃ£o foi possÃ­vel conectar ao mysql';
+    echo 'Não foi possível conectar ao mysql';
     exit;
 }
 if (!mysql_select_db($base_dados, $link)) {
-    echo 'NÃ£o foi possÃ­vel selecionar o banco de dados';
+    echo 'Não foi possível selecionar o banco de dados';
     exit;
 }
 ?>

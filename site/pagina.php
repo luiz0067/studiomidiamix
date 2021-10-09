@@ -1,0 +1,27 @@
+<?php
+
+//######### INICIO Paginação
+        $numreg = 15; // Quantos registros por página vai ser mostrado
+        if (!isset($pg)) {
+                $pg = 0;
+        }
+        $inicial = $pg * $numreg;
+        
+//######### FIM dados Paginação
+        
+        // Faz o Select pegando o registro inicial até a quantidade de registros para página
+        $sql = mysql_query("SELECT * FROM patrocinio LIMIT $inicial, $numreg");
+
+        // Serve para contar quantos registros você tem na seua tabela para fazer a paginação
+        $sql_conta = mysql_query("SELECT imagem * FROM patrocinio");
+        
+        $quantreg = mysql_num_rows($sql_conta); // Quantidade de registros pra paginação
+        
+        include("paginacao.php"); // Chama o arquivo que monta a paginação. ex: << anterior 1 2 3 4 5 próximo >>
+        
+        echo "<br><br>"; // Vai servir só para dar uma linha de espaço entre a paginação e o conteúdo
+        
+        while ($aux = mysql_fetch_array($sql)) {
+                /* Ai o resto é com voces em montar como deve parecer o conteúdo */
+        }
+?>
