@@ -1,0 +1,44 @@
+
+.txtMain{
+	font-size: 13px;
+	color: #999999;
+}
+.txtMainItems{
+	font-size: 14px;
+	color: #CCCCCC;
+}
+.h1{
+	font-size: 16px;
+	color: #FF9900;
+}
+.h2{
+	font-size: 12px;
+	color: #FFFFFF;
+}
+.h22{
+	font-size: 14px;
+	color: #FF9900;
+}
+.h3{
+	font-size: 15px;
+	color: #FFFFFF;
+	text-decoration: underline;
+}
+a:link {
+	color: #0099FF;
+}
+a:hover {
+	/*text-decoration:underline;*/
+	color: #FF9900;
+}
+.blue {
+	color:#0099FF;
+}
+.orange {
+	color:#FF9900;
+	font-size:14px;
+}
+.contactAdd{
+	font-size: 13px;	
+	color: #FF9900;
+}

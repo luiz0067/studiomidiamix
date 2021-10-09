@@ -1,0 +1,8 @@
+<flash_project name="preview" version="1">
+	<project_file filetype="fla" path="./preview.fla" profile=""/>
+	<project_file filetype="as" path="./mx/transitions/OnEnterFrameBeacon.as"/>
+	<project_file filetype="as" path="./mx/transitions/BroadcasterMX.as"/>
+	<project_file filetype="as" path="./mx/transitions/Tween.as"/>
+	<project_file filetype="as" path="./mx/transitions/easing/Strong.as"/>
+	<project_file filetype="as" path="./mx/transitions/easing/Regular.as"/>
+</flash_project>

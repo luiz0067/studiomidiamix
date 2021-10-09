@@ -1,0 +1,210 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<root>
+
+<!--
+=======================
+======== 2009 =========
+=======================
+-->
+
+   <collection title="Design Gráfico">
+    <news>
+      <date>Logomarca</date>
+      <text>
+        <![CDATA[<span class="txtMain">O mais importante em uma empresa que esta começando é seu nome pois será com ele que vai ser reconhecido por seu publico alvo no comercio.<br>Desta forma, ser representado por um logo com visual moderno e objetivo é fundamental.</span>]]>
+      </text>
+    </news>
+    <news>
+      <date>Projeto Gráfico </date>
+      <text>
+        <![CDATA[<span class="txtMain">Desenvolvimento de anúncios, folders, dysplay, campanhas e produtos. </span>]]>
+      </text>
+    </news>
+    <news>
+      <date>Cartões de Visitas </date>
+      <text>
+        <![CDATA[<span class="txtMain">Contamos com a parceria de várias empresas, tornando o atendimento a nossos clientes ainda mais completo.</span>]]>
+      </text>
+    </news>
+  </collection>
+  
+<!--
+=======================
+======== 2007 =========
+=======================
+-->
+
+  <collection title="Web Design">
+    <news>
+      <date>Sites</date>
+      <text>
+        <![CDATA[<span class="txtMain">Plataforma web com designer moderno e interativo. </span>]]>
+      </text>
+    </news>
+    
+	   <news>
+      <date>Sites em Flash</date>
+      <text>
+        <![CDATA[<span class="txtMain">Plataforma mais dinâmica e interativa com o usuário, conta com recursos mais modernos em animação e produção.</span>]]>
+      </text>
+    </news>
+    
+	<news>
+      <date>Conteúdo Multimídia</date>
+      <text>
+        <![CDATA[<span class="txtMain">Conteúdos em cds com produções dinâmica e interativas usados para apresentação de empresas, produtos ou campanhas publicitárias assim como cursos ou treinamentos.</span>]]>
+      </text>
+    </news>
+	<news>
+      <date>E-mail Marketing</date>
+      <text>
+        <![CDATA[<span class="txtMain">Assistência ao cliente, é nisso que se resume esse serviço, nosso objetivo é estar sempre junto a nossos clientes estimulando e orientando o uso de propagandas em seu site pra que seu conteudo web esteja sempre atualizado.
+		</span>]]>
+      </text>
+    </news>
+	<news>
+      <date>Sitemas Adminstrativos para Web</date>
+      <text>
+        <![CDATA[<span class="txtMain">Hoje cada vez mais as pessoas querem ter controle de seus sites, tornando-se mais independentes, dessa forma podem estar optando por um sistema administrativo em seus sites.  </span>]]>
+      </text>
+    </news>
+	<news>
+      <date>Banner´s em Flash</date>
+      <text>
+        <![CDATA[<span class="txtMain">Propaganda, anúncios ou promoções são algumas sugestões interativas que ajudam seu site se tornar mais atualizado. </span>]]>
+      </text>
+    </news>
+  </collection>
+  
+  
+<!--
+=======================
+======== 2006 =========
+=======================
+-->
+
+
+  <collection title="Maquete Eletrônica">
+    <news>
+      <date>Perspectivas Internas | Externas </date>
+      <text>
+        <![CDATA[<span class="txtMain">Perspectivas internas e externas de ambientes residênciais, comerciais e institucionais.</span>]]>
+      </text>
+    </news>
+    
+	<news>
+      <date>Perspectivas de Fachadas Comersiais, Residênciais</date>
+      <text>
+        <![CDATA[<span class="txtMain">Perspectivas de estudos de fachada e propostas de revestimentos externos.</span>]]>
+      </text>
+    </news>
+	<news>
+      <date>Maquete de Produtos e Embalagens</date>
+      <text>
+        <![CDATA[<span class="txtMain">Montagem de cenários virtuais para campanhas publicitárias e fotografia.<br>Ilustrações para estudo e difinição de projetos.<br></span>]]>
+      </text>
+    </news>
+	
+	<news>
+      <date>Layout de Móveis, Equipamentos.</date>
+      <text>
+        <![CDATA[<span class="txtMain">Perspectiva de estudos volumétricos - Simulação de maquete física.<br>Ilustração virtual de mobiliário, equipamentos, pdv e demais objetos.</span>]]>
+      </text>
+    </news>
+  </collection>
+  
+   <collection title="Illustração - Concept">
+    <news>
+      <date>Desenho Artístico</date>
+      <text>
+        <![CDATA[<span class="txtMain">Copias, reproduções, criações de trabalhos com carater artístico.</span>]]>
+      </text>
+    </news>
+    <news>
+      <date>Desenho Industrial e Mecânico</date>
+      <text>
+        <![CDATA[<span class="txtMain">Desenho de projetos técnicos de arquitetura e mecânica.</span>]]>
+      </text>
+    </news>
+	<news>
+	<date>Desenho Estrutural e Criação de Personagem</date>
+      <text>
+        <![CDATA[<span class="txtMain">Criação e animação de mascotes para empresas e projetos publicitários. </span>]]>
+      </text>
+    </news>
+	<news>
+	<date>Caricatura</date>
+      <text>
+        <![CDATA[<span class="txtMain">Caricatura e charges para evento, impressos e presentes.</span>]]>
+      </text>
+    </news>
+	<news>
+	<date>Restauração de Fotos</date>
+      <text>
+        <![CDATA[<span class="txtMain">Restauração de fotos antigas. </span>]]>
+      </text>
+    </news>
+	<news>
+	<date>Concept Arts | Pintura Digital</date>
+      <text>
+        <![CDATA[<span class="txtMain">illustração para jogos, tatuagens e campanhas publicitárias</span>]]>
+      </text>
+    </news>
+	
+  </collection>
+  
+  
+  <collection title="Modelagem 2D e 3D">
+    <news>
+      <date>Modelagem de Personagem </date>
+      <text>
+        <![CDATA[<span class="txtMain">Modelagem de personagem de desenho 2d para paltaforma 3d, projeto completo com rigging e 3 render´s do personagem modelado.</span>]]>
+      </text>
+    </news>
+    <news>
+      <date>Modelagem de Peças Publicitárias</date>
+      <text>
+        <![CDATA[<span class="txtMain">Realização de projetos de embalagem e peças de campanhas publicitárias.</span>]]>
+      </text>
+    </news>
+	<news>
+      <date>Textos em 3D</date>
+      <text>
+        <![CDATA[<span class="txtMain">Textos de qualquer fonte e estilo pra uso em projetos gráficos.</span>]]>
+      </text>
+    </news>
+	<news>
+      <date>Rigging</date>
+      <text>
+        <![CDATA[<span class="txtMain">Aplicação de esqueleto em objetos e personagens pra realização de animações .</span>]]>
+      </text>
+    </news>
+	<news>
+      <date>Render</date>
+      <text>
+        <![CDATA[<span class="txtMain">Realização de render de imagens em alta qualida pra impressão de peças em 3d.</span>]]>
+      </text>
+    </news>
+	<news>
+      <date>Animação 2D e 3D</date>
+      <text>
+        <![CDATA[<span class="txtMain">Animações desenvolvidas para propaganda em videos, web, campanhas publicitarias e videos institucionais.<br>Podendo ser desenvolvidos em plataformas 3d ou desenhos em 2D.</span>]]>
+      </text>
+    </news>
+	<news>
+      <date>Escultura Digital</date>
+      <text>
+        <![CDATA[<span class="txtMain">Modelos desenvolvidos para jogos e peças publicitárias.</span>]]>
+      </text>
+    </news>
+	</collection>
+  
+  
+  
+<!--  
+==============================================
+================== END =======================
+==============================================
+-->
+  
+</root>

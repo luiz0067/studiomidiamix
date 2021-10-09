@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+
+<structure>
+
+
+  <navigation>
+    <item title="Portifólio" type="page" src="pages/portfolio.swf" />
+    <item title="Empresa" type="page" src="pages/bio.swf"  />
+    <item title="Serviços" type="page" src="pages/news.swf" />
+   	<item title="Contato" type="page" src="pages/contact.swf" />
+	<item title="Cliente" type="link" src="" target="_blank"/>
+      </navigation>
+     
+  <backgrounds>
+    <img src="images/backgrounds/3.jpg" />
+    <img src="images/backgrounds/1.jpg" />
+    <img src="images/backgrounds/2.jpg" />
+  </backgrounds>
+  
+  
+  <music playDefault="true">
+    <song url="songs/adg3.com_coreIssues.mp3" />
+    <song url="songs/adg3.com_coreIssues.mp3" />
+    <song url="songs/adg3.com_coreIssues.mp3" />
+    <song url="songs/adg3.com_coreIssues.mp3" />
+    </music>
+  
+  
+  <settings>
+    <menu color="#FFFFFF" colorOver="#FF9900" />
+    <logo src="images/logo.png" />
+  </settings>
+  
+  
+</structure>
