@@ -1,0 +1,15 @@
+
+			<?php
+			$senha="jsjdjdj";
+			$nome="jdjdjdjdj";
+			$cpf="06157803932";
+			$data="";
+			$mensagem1="jshbvdj djjikf ejdkdr ekjdnbb ejdijdf skmjndfjdsjnnsj";
+			$mensagem2="";
+			$fone="4444";
+			$rua="";
+			$numero="";
+			$bairro="";
+			$cidade="";
+			$cad="29/06/2012";
+			?>

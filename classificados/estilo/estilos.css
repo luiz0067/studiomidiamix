@@ -1,0 +1,112 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+					margin-top:0px;
+					margin-left:0px;
+					margin-right:0px;
+					margin-bottom:0px;
+					pading-top:0px;
+					pading-left:0px;
+					pading-right:0px;
+					pading-bottom:0px;
+					width:100%;
+					min-height:100%;				
+					height:auto;				
+				}
+				div{
+					margin-top:0px;
+					margin-left:0px;
+					margin-right:0px;
+					margin-bottom:0px;
+					pading-top:0px;
+					pading-left:0px;
+					pading-right:0px;
+					pading-bottom:0px;
+				}
+				#proteger{
+					margin-left:auto;
+					margin-right:auto;
+					width:1099px;
+					height:30px;
+					line-height:30px;
+				}
+				#tudo{
+				margin:0 auto;
+				margin-left:auto;
+					margin-right:auto;
+				height:100%;
+				width:100%;
+				}
+				#menuItem{
+					margin-top:14px;
+					margin-bottom:12px;
+					width:100%;
+					height:137px;
+					
+				
+				}
+				#formulario{
+				margin:0 auto;
+					width:400px;
+					height:750px;
+					margin-left:auto;
+					margin-right:auto;
+					border:solid;
+					border-width:1px;
+					float:left;
+				}
+
+	
+				#barra{
+					width:100%;
+					
+					height: 299px;
+					background: url(../imagens/barra.jpg) repeat;
+				}
+				#imagem_barra{
+					width:1099px;
+					height:100%;
+					margin-left:auto;
+					margin-right:auto;
+				}
+				.clear{ clear:both; }			
+				
+				.conteudo{
+				width:1099px;
+				margin:0 auto;
+				
+				}
+				#topo{
+				margin:0 auto;
+				margin-left:auto;
+				margin-right:auto;
+				
+			
+					
+				
+				}
+				.contentprincipal{
+					margin-left: auto;
+					margin-right: auto;
+					width:1099px;
+					height:auto;
+				}
+				.formcontato{
+					width:578;
+					margin-left: auto;
+					margin-right: auto;
+				}
+				
+				.inputcontato{
+					margin-right:auto; margin-left:auto; max-width:521px; min-width:521px; 
+				}
+				.inputcontato2{
+					max-width:250px; min-width:250px; max-height:80px; min-height:80px; float:left;
+				}
+				td{
+				padding-top:10px;
+				}
+				#rodape{
+				background-color:#5F0508; height:50px; width:100%; margin-top:20px;
+				}
+			

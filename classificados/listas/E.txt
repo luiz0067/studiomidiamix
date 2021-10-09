@@ -1,0 +1,7 @@
+
+			<?php
+			if(file_exists("usuarios/etwerijiweui.txt")){
+			echo "<br> <a href=suaconta.php?id=etwerijiweui>etwerijiweui</a>";
+			};
+			
+			?>

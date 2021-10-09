@@ -1,0 +1,15 @@
+
+			<?php
+			$senha="";
+			$nome="";
+			$cpf="61848812051";
+			$data="";
+			$mensagem1="";
+			$mensagem2="";
+			$fone="";
+			$rua="";
+			$numero="";
+			$bairro="";
+			$cidade="";
+			$cad="29/06/2012";
+			?>

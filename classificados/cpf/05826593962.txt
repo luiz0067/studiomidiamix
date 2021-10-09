@@ -1,0 +1,11 @@
+
+				<?php
+				$senha="";
+				$nome="";
+				$cpf="05826593962";
+				$data="";
+				$mensagem1="dsfdasf";
+				$mensagem2="";
+				$fone="";
+				$cad="29/06/2012";
+				?>
